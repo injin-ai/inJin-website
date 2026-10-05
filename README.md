@@ -1,0 +1,2 @@
+# inJin-website
+Static Website
