@@ -1,0 +1,129 @@
+/* =========================================================
+   TABLETS
+========================================================= */
+
+@media (max-width: 991px) {
+
+    .hero {
+
+        text-align: center;
+    }
+
+
+    .hero-description {
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .hero-buttons {
+
+        justify-content: center;
+    }
+
+
+    .hero-visual {
+
+        margin-top: 70px;
+
+        min-height: 350px;
+    }
+
+
+    .nav-link {
+
+        margin-left: 0;
+
+        padding: 10px 0;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .section {
+
+        padding: 80px 0;
+    }
+
+
+    .hero {
+
+        padding-top: 130px;
+    }
+
+
+    .hero h1 {
+
+        letter-spacing: -2px;
+    }
+
+
+    .hero-description {
+
+        font-size: 1rem;
+    }
+
+
+    .hero-buttons {
+
+        flex-direction: column;
+    }
+
+
+    .hero-buttons .btn {
+
+        width: 100%;
+    }
+
+
+    .ai-orb {
+
+        width: 210px;
+        height: 210px;
+    }
+
+
+    .orb-core {
+
+        width: 70px;
+        height: 70px;
+    }
+
+
+    .about-card {
+
+        padding: 30px;
+    }
+
+
+    .cta-card {
+
+        padding: 50px 25px;
+    }
+
+
+    .footer-content {
+
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 15px;
+    }
+
+
+    .footer-links a {
+
+        margin-left: 8px;
+
+        margin-right: 8px;
+    }
+
+}
